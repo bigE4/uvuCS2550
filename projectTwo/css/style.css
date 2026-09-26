@@ -1,0 +1,73 @@
+body {
+    font-family: monospace;
+    font-size: 12pt;
+    background-image: linear-gradient(grey, silver);
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Georgia;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+
+img {
+    padding: 15px;
+    border: 2px inset black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+    padding: 2px;
+    width: 10%;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+    padding: 2px;
+}
+
+td.uvu {
+    background-color: rgb(98, 205, 110);
+}
+
+td.aw {
+    background-color: rgb(155, 98, 205);
+}
+
+td.poor {
+    background-color: rgb(98, 132, 205);
+}
+
+td.ta {
+    background-color: rgb(98, 205, 198);
+}
+
+p {
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 12pt;
+}
+
+h2,
+p.poem {
+    text-align:center;
+}
+
+table {
+    table-layout: fixed;
+    margin: auto;
+    width: 100%;
+}
