@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+a {
+color: seagreen;
+}
+
+a:hover {
+color: lightseagreen;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar menu"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: .5fr 3fr;
+  gap: 3px;
+  background-color: seagreen;
+  padding: 5px;
+}
+.container div {
+  background-color: lightgrey;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+  text-align: center;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.container div.sidebar {
+  grid-area: sidebar;
+  text-align: left;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="sidebar">Meet the Fleet</div>
+	<div class="header"><h1>Aetherwing</h1></div>
+	<div class="menu"><a href="#">Join the Fleet!</a> - <a href="#">Download Demo!</a> - <a href="#">Send us Fanmail!</a></div>
+  <div class="content"><h3>Aetherwing</h3><p>Aetherwing is a <b>brand new</b> rail shooter developed by indie developers working at bigE4 studio. We have loved developing it and hope you take the time to download the demo!</p></div>
+  <div class="footer"><p>github.com/bigE4 - bigE4studio@gmail.com</p></div>
+</div>
+
+</body>
+</html>
+
+
